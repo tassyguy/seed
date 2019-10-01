@@ -9,23 +9,23 @@
    * Done! From now on it will automatically update.
 2. Use Alternative WebUI in  qBittorrent
    * Follow the instructions to use [Alternate WebUI usage][13].
-   * Copy dark-qbittorrent-webui.css to `<new folder>/public/css`.
+   * Copy seed.css to `<new folder>/public/css`.
    * Edit `<new folder>/public/index.html`.  
-     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
-   * Copy dark-qbittorrent-webui.css to `<new folder>/private/css`.
+     Add `<link rel="stylesheet" type="text/css" href="css/seed.css?v=${VERSION}" \>` after the other CSS links in header.
+   * Copy seed.css to `<new folder>/private/css`.
    * Edit `<new folder>/private/index.html`.       
-     Add `<link rel="stylesheet" type="text/css" href="css/dark-qbittorrent-webui.css?v=${VERSION}" \>` after the other CSS links in header.
+     Add `<link rel="stylesheet" type="text/css" href="css/seed.css?v=${VERSION}" \>` after the other CSS links in header.
 
 [version]: https://img.shields.io/badge/version-1.0.0-ED1C24.svg?longCache=true&style=flat-square
 [1]: #
 [stylus]: https://img.shields.io/badge/install%20directly%20with-Stylus-00adad.svg?longCache=true&style=flat-square "Click here!"
-[2]: https://raw.githubusercontent.com/iFelix18/Dark-qBittorrent-WebUI/master/dark-qbittorrent-webui.user.css
+[2]: https://raw.githubusercontent.com/tassyguy/seed/master/seed.user.css
 [userstyles]: https://img.shields.io/badge/dynamic/json.svg?label=userstyles.org%20installations&url=https%3A%2F%2Fwidget.userstyles.org%2Fstyles%2F160858%2Fdark-qbittorrent-webui.json&query=total_installs&colorB=e51ced&longCache=true&style=flat-square
 [3]: https://userstyles.org/styles/160858/dark-qbittorrent-webui
 [stars]: https://img.shields.io/github/stars/iFelix18/Dark-qBittorrent-WebUI.svg?longCache=true&style=flat-square
 [4]: https://github.com/iFelix18/Dark-qBittorrent-WebUI/stargazers
 [issues]: https://img.shields.io/github/issues/iFelix18/Dark-qBittorrent-WebUI.svg?longCache=true&style=flat-square
-[5]: https://github.com/iFelix18/Dark-qBittorrent-WebUI/issues
+[5]: https://github.com/tassyguy/seed/issues
 [license]: https://img.shields.io/github/license/iFelix18/Dark-qBittorrent-WebUI.svg?longCache=true&style=flat-square
 [6]: https://creativecommons.org/licenses/by-sa/4.0/
 [Cozzy's theme]: https://userstyles.org/styles/152766/
